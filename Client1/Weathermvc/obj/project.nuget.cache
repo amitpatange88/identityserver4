@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "G0OYx8x+eGvrnroFsvvt8DUK1VMvpPG/+xnYWlivqftRkOcEy90LlBpz9Tm0wzW+Jq7ryCNj9SoyRyTAiVs54g==",
+  "success": true,
+  "projectFilePath": "/Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/Weathermvc.csproj",
+  "expectedPackageFiles": [
+    "/Users/Amit/.nuget/packages/identitymodel/5.0.1/identitymodel.5.0.1.nupkg.sha512",
+    "/Users/Amit/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/Amit/.nuget/packages/system.text.encodings.web/5.0.0/system.text.encodings.web.5.0.0.nupkg.sha512",
+    "/Users/Amit/.nuget/packages/system.text.json/5.0.0/system.text.json.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

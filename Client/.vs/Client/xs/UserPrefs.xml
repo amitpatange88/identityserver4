@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{8ACFBE24-1A5A-4250-8DB5-F35BFBCF5606}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="weatherapi/Startup.cs">
+    <Files>
+      <File FileName="weatherapi/Controllers/WeatherForecastController.cs" Line="15" Column="6" />
+      <File FileName="weatherapi/Startup.cs" Line="34" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Client" expanded="True">
+            <Node name="weatherapi" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.weatherapi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Amit/Desktop/VSCode/IdentityServer4/Client/Weathermvc/Controllers/HomeController.cs" relfile="Weathermvc/Controllers/HomeController.cs" line="34" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
