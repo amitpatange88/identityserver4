@@ -26,6 +26,27 @@ namespace Weathermvc
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddAuthentication(configureOptions: options =>
+            {
+                options.DefaultScheme = "cookie";
+                options.DefaultChallengeScheme = "oidc";
+            })
+            .AddCookie("cookie")
+            .AddOpenIdConnect(authenticationScheme: "oidc", configureOptions: options =>
+            {
+                options.Authority = Configuration["InteractiveServiceSettings:AuthorityUrl"];
+                options.ClientId = Configuration["InteractiveServiceSettings:ClientId"];
+                options.ClientSecret = Configuration["InteractiveServiceSettings:ClientSecret"];
+
+                options.ResponseType = "code";
+                options.UsePkce = true;
+                options.ResponseMode = "query";
+
+                options.Scope.Add(Configuration["InteractiveServiceSettings:Scopes:0"]);
+                options.SaveTokens = true;
+            });
+
             services.Configure<IdentityServerSettings>(Configuration.GetSection(key: "IdentityServerSettings"));
             services.AddSingleton<ITokenService, TokenService>();
         }
@@ -47,7 +68,7 @@ namespace Weathermvc
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

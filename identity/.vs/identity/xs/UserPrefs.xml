@@ -1,21 +1,29 @@
 ﻿<Properties StartupConfiguration="{1B132FC9-1DD3-48C6-851E-F5E3361D0E77}|Default">
-  <MonoDevelop.Ide.ItemProperties.ids FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ids/Config.cs">
+  <MonoDevelop.Ide.ItemProperties.ids PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ids/Views/Home/Index.cshtml">
     <Files>
       <File FileName="ids/appsettings.json" Line="1" Column="1" />
       <File FileName="ids/Properties/launchSettings.json" Line="21" Column="48" />
-      <File FileName="ids/Startup.cs" Line="25" Column="50" />
-      <File FileName="ids/Config.cs" Line="104" Column="30" />
+      <File FileName="ids/Startup.cs" Line="46" Column="61" />
+      <File FileName="ids/Config.cs" Line="9" Column="14" />
+      <File FileName="ids/Views/Home/Index.cshtml" Line="15" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="identity" expanded="True">
             <Node name="ids" expanded="True">
-              <Node name="Config.cs" selected="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

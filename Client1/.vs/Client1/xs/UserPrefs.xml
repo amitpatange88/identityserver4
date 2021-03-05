@@ -1,23 +1,17 @@
 ﻿<Properties StartupConfiguration="{7A8DA158-0E1F-4816-9121-759A7C5C0A4D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Weathermvc/appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Weathermvc/Controllers/HomeController.cs">
     <Files>
-      <File FileName="Weathermvc/Startup.cs" Line="13" Column="2" />
-      <File FileName="Weathermvc/Controllers/HomeController.cs" Line="55" Column="28" />
-      <File FileName="Weathermvc/Views/Home/Weather.cshtml" Line="15" Column="23" />
-      <File FileName="Weathermvc/Views/Home/AWeather.cshtml" Line="26" Column="9" />
-      <File FileName="Weathermvc/Services/IdentityServerSettings.cs" Line="12" Column="9" />
-      <File FileName="Weathermvc/Services/ITokenService.cs" Line="12" Column="1" />
-      <File FileName="Weathermvc/Services/TokenService.cs" Line="18" Column="35" />
-      <File FileName="Weathermvc/appsettings.json" Line="1" Column="2" />
+      <File FileName="Weathermvc/Controllers/HomeController.cs" Line="33" Column="26" />
+      <File FileName="Weathermvc/Startup.cs" Line="71" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Client1" expanded="True">
-            <Node name="Weathermvc" expanded="True">
+            <Node name="Weathermvc" expanded="True" selected="True">
+              <Node name="Controllers" expanded="True" />
               <Node name="Services" expanded="True" />
               <Node name="Views" expanded="True" />
-              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>

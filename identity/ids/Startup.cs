@@ -25,6 +25,9 @@ namespace ids
                 .AddInMemoryApiScopes(Config.ApiScopes)
                 .AddTestUsers(Config.Users)
                 .AddDeveloperSigningCredential();
+
+            //To add UI controls over the IdentityServer
+            services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -38,14 +41,17 @@ namespace ids
             app.UseRouting();
 
             app.UseIdentityServer();
+            app.UseAuthorization();
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
-            });
+            app.UseEndpoints(endpoints =>endpoints.MapDefaultControllerRoute());
+
+            //app.UseEndpoints(endpoints =>
+            //{
+            //    endpoints.MapGet("/", async context =>
+            //    {
+            //        await context.Response.WriteAsync("Hello World!");
+            //    });
+            //});
         }
 
         private void AddIdentityServer(IServiceCollection services)

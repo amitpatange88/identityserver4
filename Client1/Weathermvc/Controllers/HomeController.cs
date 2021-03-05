@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using IdentityModel.Client;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
@@ -29,7 +30,7 @@ namespace Weathermvc.Controllers
             return View();
         }
 
-        public async Task<IActionResult> Weather()
+        public ViewResult Weather()
         {
             var data = new List<WeatherData>();
 
@@ -54,6 +55,7 @@ namespace Weathermvc.Controllers
             }
         }
 
+        [Authorize]
         public async Task<IActionResult> AWeather()
         {
             var data = new List<WeatherData>();
