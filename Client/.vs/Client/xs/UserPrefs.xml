@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{8ACFBE24-1A5A-4250-8DB5-F35BFBCF5606}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="weatherapi/Startup.cs">
     <Files>
-      <File FileName="weatherapi/Controllers/WeatherForecastController.cs" Line="15" Column="6" />
+      <File FileName="weatherapi/Controllers/WeatherForecastController.cs" Line="13" Column="5" />
       <File FileName="weatherapi/Startup.cs" Line="34" Column="1" />
     </Files>
     <Pads>
@@ -10,6 +10,7 @@
           <Node name="Client" expanded="True">
             <Node name="weatherapi" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
               <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>

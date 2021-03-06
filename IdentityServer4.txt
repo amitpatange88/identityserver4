@@ -1,0 +1,23 @@
+https://localhost:5443/.well-known/openid-configuration
+
+
+
+  curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -H "Cache-Control:no-cache" -d 'client_id=m2m.client&scope=weatherapi.read&client_secret=SuperSecretPassword&grant_type=client_credentials' "https://localhost:5443/connect/token"
+
+  jwt.ms
+
+eyJhbGciOiJSUzI1NiIsImtpZCI6IjE5MTRCQkREN0VCNEJEOUIyNEZDNTlBN0IyRjc4Qjg1IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MTQ5NTIxMjEsImV4cCI6MTYxNDk1NTcyMSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTQ0MyIsImF1ZCI6IndlYXRoZXJhcGkiLCJjbGllbnRfaWQiOiJtMm0uY2xpZW50IiwianRpIjoiNTcyQTlCNTA3QzcwRjU4N0MzMUVCMjlCMDlEQjMwQTIiLCJpYXQiOjE2MTQ5NTIxMjEsInNjb3BlIjpbIndlYXRoZXJhcGkucmVhZCJdfQ.rZUI1fpeUv_C4dKHVbcOk25AisD6bABzBJSnhYjK1SwxmZYglgv5qlHERyzMnvx8BYL4XtWOUmbf79y_bKtOeFjyfc0ZJQb_5KA7hKb1W3N80pkI3Rr63sq9H_ylJhMMz-FN7mlPik2fsvfGphHVc36sitI0QKp062MbQF3XSDS6PtNT8HaUYwmZ0V5TYbFmqcA7k8ChPjjVsszOc3KjYSD1X_S8K3sIw4BrcpOGN473YWQRoJ8J4Gj20CXQv2pwTyUvmnJjyI9_gEPqUe1dDMPpHOFHH8JEae_Kml6BzWvMRR1WK8HyGv8qzJSmgBuYVpzIktTEkuke_xLE-w3Ogw
+
+
+
+
+  curl -X GET -H "Authorization: Bearer xxxxx" -H "Cache-Control:no-cache" "https://localhost:5445/weatherforecast"
+
+
+
+   curl -X GET -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjE5MTRCQkREN0VCNEJEOUIyNEZDNTlBN0IyRjc4Qjg1IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MTQ5NTkwNzQsImV4cCI6MTYxNDk2MjY3NCwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTQ0MyIsImF1ZCI6IndlYXRoZXJhcGkiLCJjbGllbnRfaWQiOiJtMm0uY2xpZW50IiwianRpIjoiMUIxNjA5OTYyQUJBNDI0MUEwQTA3RjIxMjczOTUzRTMiLCJpYXQiOjE2MTQ5NTkwNzQsInNjb3BlIjpbIndlYXRoZXJhcGkucmVhZCJdfQ.i7saHA-ii4xizv8SaSKu2PYc7eDboHrpmQOUIoGgSy9BkS66LBLjonAdVrWflSz0pBUlXD90GHCeiI5PIwo562HrxQ9pI6yqixu0dMiaH1kVr1m_facA9X_TUTtIY9Bx0-RoaFNKsBrTv_2gvWODivDhQF83b3wwOfLtdW0VjMn-j-sWqLKxt07tFHs6ShXUjX8b51Hjb7_P5U2GQ52bjVgEMyOk0x7K7c_3gCwpN4y7ujl4j35qfBryfsdBYNbFwm2Ixdfos1GGbPnwVAyApGalGT48E3tQFHYclhhKoYDRdWODJ_7ElxZ2_UGuyKkvpq7L1nfTZyOu55P8NLAdzA" -H "Cache-Control:no-cache" "https://localhost:5445/weatherforecast"
+
+
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+   brew install git

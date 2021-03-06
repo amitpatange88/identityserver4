@@ -28,3 +28,4 @@
 /Users/Amit/Desktop/VSCode/IdentityServer4/Client/weatherapi/obj/Debug/netcoreapp3.1/weatherapi.dll
 /Users/Amit/Desktop/VSCode/IdentityServer4/Client/weatherapi/obj/Debug/netcoreapp3.1/weatherapi.pdb
 /Users/Amit/Desktop/VSCode/IdentityServer4/Client/weatherapi/obj/Debug/netcoreapp3.1/weatherapi.genruntimeconfig.cache
+/Users/Amit/Desktop/VSCode/IdentityServer4/Client/weatherapi/obj/Debug/netcoreapp3.1/weatherapi.csprojAssemblyReference.cache

@@ -39,6 +39,7 @@ namespace ids
             }
 
             app.UseRouting();
+            app.UseStaticFiles();
 
             app.UseIdentityServer();
             app.UseAuthorization();

@@ -56,3 +56,4 @@
 /Users/Amit/Desktop/VSCode/IdentityServer4/identity/ids/obj/Debug/netcoreapp3.1/ids.dll
 /Users/Amit/Desktop/VSCode/IdentityServer4/identity/ids/obj/Debug/netcoreapp3.1/ids.pdb
 /Users/Amit/Desktop/VSCode/IdentityServer4/identity/ids/obj/Debug/netcoreapp3.1/ids.genruntimeconfig.cache
+/Users/Amit/Desktop/VSCode/IdentityServer4/identity/ids/obj/Debug/netcoreapp3.1/ids.csprojAssemblyReference.cache
