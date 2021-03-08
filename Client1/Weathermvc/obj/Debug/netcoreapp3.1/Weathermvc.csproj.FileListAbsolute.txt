@@ -8,6 +8,7 @@
 /Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/bin/Debug/netcoreapp3.1/Weathermvc.Views.dll
 /Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/bin/Debug/netcoreapp3.1/Weathermvc.Views.pdb
 /Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/bin/Debug/netcoreapp3.1/IdentityModel.dll
+/Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 /Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
 /Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
@@ -15,10 +16,11 @@
 /Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
 /Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/bin/Debug/netcoreapp3.1/Okta.AspNet.Abstractions.dll
+/Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/bin/Debug/netcoreapp3.1/Okta.AspNetCore.dll
 /Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
 /Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/bin/Debug/netcoreapp3.1/System.Text.Encodings.Web.dll
 /Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/bin/Debug/netcoreapp3.1/System.Text.Json.dll
-/Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/obj/Debug/netcoreapp3.1/Weathermvc.csprojAssemblyReference.cache
 /Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/obj/Debug/netcoreapp3.1/Weathermvc.AssemblyInfoInputs.cache
 /Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/obj/Debug/netcoreapp3.1/Weathermvc.AssemblyInfo.cs
 /Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/obj/Debug/netcoreapp3.1/Weathermvc.csproj.CoreCompileInputs.cache
@@ -37,6 +39,7 @@
 /Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/obj/Debug/netcoreapp3.1/Razor/Views/Home/Weather.cshtml.g.cs
 /Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
 /Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_LoginPartial.cshtml.g.cs
 /Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
 /Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
 /Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs

@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{08FBC967-D300-4C08-8245-4BD492B43473}|okta-aspnetcore-mvc-example">
+  <MonoDevelop.Ide.ItemProperties.OktaClient PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Startup.cs" Line="38" Column="98" />
+      <File FileName="appsettings.json" Line="13" Column="27" />
+      <File FileName="Controllers/AccountController.cs" Line="31" Column="68" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OktaClient" expanded="True">
+            <Node name="OktaClient" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>okta-aspnetcore-mvc-example/oka-client.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
