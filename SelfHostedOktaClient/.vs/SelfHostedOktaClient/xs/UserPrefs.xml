@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{968B66F4-4119-4600-9E30-DFB3C6550C41}|okta-aspnetcore-mvc-example">
+  <MonoDevelop.Ide.Workbench ActiveDocument="appsettings.json">
+    <Files>
+      <File FileName="Startup.cs" Line="44" Column="48" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="60" Column="24" />
+      <File FileName="Views/Account/SignIn.cshtml" Line="25" Column="8" />
+      <File FileName="Controllers/AccountController.cs" Line="18" Column="24" />
+      <File FileName="Properties/launchSettings.json" Line="29" Column="1" />
+      <File FileName="appsettings.json" Line="17" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SelfHostedOktaClient" expanded="True">
+            <Node name="SelfHostedOktaClient" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SelfHostedOktaClient PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>okta-aspnetcore-mvc-example/SelfHostedOktaClient.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

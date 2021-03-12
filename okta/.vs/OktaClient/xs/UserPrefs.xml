@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{08FBC967-D300-4C08-8245-4BD492B43473}|okta-aspnetcore-mvc-example">
   <MonoDevelop.Ide.ItemProperties.OktaClient PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="appsettings.json">
     <Files>
-      <File FileName="Startup.cs" Line="38" Column="98" />
-      <File FileName="appsettings.json" Line="13" Column="27" />
-      <File FileName="Controllers/AccountController.cs" Line="31" Column="68" />
+      <File FileName="Startup.cs" Line="33" Column="33" />
+      <File FileName="appsettings.json" Line="16" Column="1" />
+      <File FileName="Controllers/AccountController.cs" Line="24" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +13,7 @@
             <Node name="OktaClient" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Properties" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
+              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>

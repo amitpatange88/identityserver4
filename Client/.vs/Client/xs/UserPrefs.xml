@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="weatherapi/Startup.cs">
     <Files>
       <File FileName="weatherapi/Controllers/WeatherForecastController.cs" Line="13" Column="5" />
-      <File FileName="weatherapi/Startup.cs" Line="34" Column="1" />
+      <File FileName="weatherapi/Startup.cs" Line="32" Column="42" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +10,6 @@
           <Node name="Client" expanded="True">
             <Node name="weatherapi" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Properties" expanded="True" />
               <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>

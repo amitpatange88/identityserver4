@@ -1,12 +1,10 @@
 ﻿<Properties StartupConfiguration="{7A8DA158-0E1F-4816-9121-759A7C5C0A4D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Weathermvc/Controllers/AccountController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Weathermvc/Controllers/HomeController.cs">
     <Files>
-      <File FileName="Weathermvc/Startup.cs" Line="47" Column="13" />
+      <File FileName="Weathermvc/Startup.cs" Line="33" Column="13" />
       <File FileName="Weathermvc/appsettings.json" Line="15" Column="28" />
-      <File FileName="Weathermvc/Controllers/HomeController.cs" Line="67" Column="1" />
-      <File FileName="Weathermvc/Controllers/AccountController.cs" Line="26" Column="1" />
-      <File FileName="Weathermvc/Views/Shared/_LoginPartial.cshtml" Line="9" Column="53" />
-      <File FileName="Weathermvc/Views/Shared/_Layout.cshtml" Line="23" Column="30" />
+      <File FileName="Weathermvc/Controllers/HomeController.cs" Line="80" Column="37" />
+      <File FileName="Weathermvc/Controllers/AccountController.cs" Line="35" Column="32" />
       <File FileName="Weathermvc/Services/TokenService.cs" Line="21" Column="34" />
     </Files>
     <Pads>
@@ -15,12 +13,7 @@
           <Node name="Client1" expanded="True">
             <Node name="Weathermvc" expanded="True">
               <Node name="Controllers" expanded="True">
-                <Node name="AccountController.cs" selected="True" />
-              </Node>
-              <Node name="Properties" expanded="True" />
-              <Node name="Services" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Shared" expanded="True" />
+                <Node name="HomeController.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -32,9 +25,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Weathermvc PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/Amit/Desktop/VSCode/IdentityServer4/Client1/Weathermvc/Controllers/AccountController.cs" relfile="Weathermvc/Controllers/AccountController.cs" line="23" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

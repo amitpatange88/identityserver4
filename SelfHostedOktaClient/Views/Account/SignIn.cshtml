@@ -1,0 +1,61 @@
+﻿@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+
+@{
+    ViewData["Title"] = "Sign In";
+}
+
+<script src="https://global.oktacdn.com/okta-signin-widget/5.2.0/js/okta-sign-in.min.js" type="text/javascript"></script>
+<link href="https://global.oktacdn.com/okta-signin-widget/5.2.0/css/okta-sign-in.min.css" type="text/css" rel="stylesheet" />
+<style>
+    #okta-sign-in .auth-org-logo {
+        display: block;
+        margin: 0 auto;
+        max-width: 200px;
+        max-height: 80px !important;
+    }
+</style>
+<h3>Sign In</h3>
+
+<div id="widget"></div>
+
+<form method="POST" asp-action="SignIn">
+    <input type="hidden" name="sessionToken" id="hiddenSessionTokenField" />
+    @Html.AntiForgeryToken()
+</form>
+
+<script type="text/javascript">
+    var _config = {
+        baseUrl: '@Configuration["Okta:OktaDomain"]',
+        features: {
+            registration: true,
+        },
+        helpLinks: {
+            help: 'https://example.com/help',
+            forgotPassword: 'https://example.com/forgot-password',
+            unlock: 'https://example.com/unlock-account',
+            custom: [
+                {
+                    text: 'What is Okta?',
+                    href: 'https://example.com/what-is-okta'
+                },
+                {
+                    text: 'Example Portal',
+                    href: 'https://example.com'
+                }
+            ]
+        },
+        logo: 'https://prnewswire2-a.akamaihd.net/p/1893751/sp/189375100/thumbnail/entry_id/1_mvw7fbca/def_height/800/def_width/800/version/100011/type/1'
+    };
+
+    const signIn = new OktaSignIn(_config);
+
+    signIn.renderEl({ el: '#widget' }, (res) => {
+        var sessionTokenField = $("#hiddenSessionTokenField");
+        sessionTokenField.val(res.session.token);
+        var form = sessionTokenField.parent();
+        form.submit();
+    }, (err) => {
+        console.error(err);
+    });
+</script>
